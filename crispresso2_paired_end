@@ -1,4 +1,3 @@
-CRISPResso -r1 A-gEGFR-D-LHE0416_L2_1.fq.gz -a CTGAAAGAGCGAGAGCCAGTACTGGGGGGGTAGTGGGAGCTGGGAGCACAGAGGAGAAGAGGACAGCAGGTTCTTCCAGGCAGAGGGGATGACAAGGTCATAGATTTTGGGAGGCC -an A-gEGFR-D_Off-target3_r1 -g CCCAAAATCTATGACCTTG  --write_cleaned_report --place_report_in_output_folder
 (base) hp@HP-Workstation:~/nanjing01/crispresso2/250509-A00599A$ pear -f A-gEGFR-D-LHE0416_L2_1.fq.gz -r A-gEGFR-D-LHE0416_L2_2.fq.gz -o A-gEGFR-D.fa.gz
 (base) hp@HP-Workstation:~/nanjing01/crispresso2/250509-A00599A$ CRISPResso -r1 A-gEGFR-D.0416.fq.gz -a cggatgcagagcttcttcccatgatgatctgtccctcacagcagggtcttctctgtttcagggcatgaactacttggaggaccgtcgcttggtgcaccgcgacctggcagccaggaacgtactggtgaaaacaccgcagcatgtcaagatcacagattttgggctggccaaactgctgggtgcggaagagaaagaataccatgcagaaggaggcaaagtaaggaggtggctttaggtcagccagcattttcctgacaccagggaccaggctgcctt -an A-gEGFR_D_ontarget -g caagatcacagattttggg  --write_cleaned_report --place_report_in_output_folder
 
