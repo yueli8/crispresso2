@@ -1,4 +1,4 @@
-(base) hp@HP-Workstation:~/nanjing01/crispresso2/250509-A00599A$ pear -f A-gEGFR-D-LHE0416_L2_1.fq.gz -r A-gEGFR-D-LHE0416_L2_2.fq.gz -o A-gEGFR-D.fa.gz
+(base) hp@HP-Workstation:~/nanjing01/crispresso2_250509$ pear -f A-GFP-D-LHE0417_L2_1.fq.gz -r A-GFP-D-LHE0417_L2_2.fq.gz -o A-GFP-D
+(base) hp@HP-Workstation:~/nanjing01/crispresso2_250509$ gzip A-gEGFR-D.assembled.fastq
 (base) hp@HP-Workstation:~/nanjing01/crispresso2/250509-A00599A$ CRISPResso -r1 A-gEGFR-D.0416.fq.gz -a cggatgcagagcttcttcccatgatgatctgtccctcacagcagggtcttctctgtttcagggcatgaactacttggaggaccgtcgcttggtgcaccgcgacctggcagccaggaacgtactggtgaaaacaccgcagcatgtcaagatcacagattttgggctggccaaactgctgggtgcggaagagaaagaataccatgcagaaggaggcaaagtaaggaggtggctttaggtcagccagcattttcctgacaccagggaccaggctgcctt -an A-gEGFR_D_ontarget -g caagatcacagattttggg  --write_cleaned_report --place_report_in_output_folder
-
-
+(base) hp@HP-Workstation:~/nanjing01/crispresso2_250509$ CRISPResso -r1 A-gEGFR-D.assembled.fastq.gz -a CTGAAAGAGCGAGAGCCAGTACTGGGGGGGTAGTGGGAGCTGGGAGCACAGAGGAGAAGAGGACAGCAGGTTCTTCCAGGCAGAGGGGATGACAAGGTCATAGATTTTGGGAGGCC -an A-gEGFR-D_offtarget3 -g CAAGgTCAtAGATTTTGGG  --min_frequency_alleles_around_cut_to_plot 0.05 --exclude_bp_from_left 0 --exclude_bp_from_right 0 --quantification_window_center -3 --quantification_window_size 8 --plot_window_size 8 --write_cleaned_report --place_report_in_output_folder
